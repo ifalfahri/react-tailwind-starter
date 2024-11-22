@@ -1,8 +1,31 @@
-# React + Vite
+# React Tailwind Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A minimal starter template to quickly setup your project with Vite, React, and Tailwind CSS in Javascript + SWC.
 
-Currently, two official plugins are available:
+## 🚀 Getting Started 
+You can either
+### 1. Use this repository as template
+By clicking the green "Use this template" button at the upper right in this page, or by simply clicking this [link](https://github.com/new?template_name=react-tailwind-starter&template_owner=ifalfahri)
+### 2. Deploy to Vercel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fifalfahri%2Freact-tailwind-starter)
+
+### 3. Manual
+``` 
+git clone https://github.com/ifalfahri/react-tailwind-starter.git
+```
+
+and then you can
+```
+npm install
+```
+```
+npm run dev
+```
+
+## 💡 Features
+- Vite for fast bundling and development.
+- React for building interactive UIs.
+- Tailwind CSS for utility-first styling.
+- SWC for faster JavaScript compilation.
+
