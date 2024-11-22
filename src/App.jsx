@@ -10,13 +10,23 @@ function App() {
           Vite
         </a> starter
       </h1>
+      <div className="flex flex-row space-x-6">
+      <a 
+        href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fifalfahri%2Freact-tailwind-starter">
+        <img 
+          src="https://vercel.com/button" 
+          alt="Deploy with Vercel"
+          className="h-10 hover:shadow-lg transition-all duration-300"
+        />
+      </a>
       <a
         href="https://github.com/ifalfahri/react-tailwind-starter"
         target="_blank"
-        className="bg-gray-900 text-white py-2 px-4 rounded-lg hover:bg-black hover:shadow-lg transition-all duration-300"
+        className="bg-zinc-900 text-white py-2 px-4 rounded-lg hover:bg-black hover:shadow-lg transition-all duration-300"
       >
         ⭐️ on GitHub
       </a>
+      </div>
     </main>
   );
 }
